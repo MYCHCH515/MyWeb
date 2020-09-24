@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+	header{
+		width: 100%;
+		height: 136px;
+		border-top: 4px solid #ff6a00;
+		border-bottom: 1px solid white;
+	}
+	#header_top{
+		width: 100%;
+		height: 45px;
+		background-color: #f4f4f6;
+	}
+	
+	#header_top_wrap{
+		width: 80%;
+		height: 45px;
+		margin: 0 auto;
+	}
+	
+	#slogan> p{
+		display:inline-block;
+		float: left;
+		font-size: 12px;
+		line-height: 45px;
+		word-spacing: -3px;
+		color: gray;
+		background-color: blue;
+	}
+	
+	#slogan> p> strong{
+		color: black;
+	}
+	
+	#buttons >p{
+		display:inline-block;
+		float: right;
+		font-size: 12px;
+		line-height: 45px;
+		word-spacing: -3px;
+		color: gray;
+		background-color: green;
+	}
+	
+	#header_body{
+		width: 100%;
+		height: 95px;
+		background-color: yellow;
+	}
+	#header_body_wrap{
+		width: 80%;
+		height: 45px;
+		margin: 0 auto;
+	}
+	
+	#logo{
+		float: left;
+		width: 200px;
+		height: 95px;
+		background-color: red;
+	
+	}
+	
+	#header_nav{
+		float: right;
+		width: 200px;
+		height: 95px;
+		background-color: red;
+	
+	
+	}
+	
+	#section_1{
+		width: 100%;
+		height: 573px;
+		background-color: maroon;
+	}
+	
+	#section_2{
+		width: 100%;
+		height: 945px;
+		background-color: #fff;
+	}
+	
+	#section_3{
+		width: 100%;
+		height: 1070px;
+		background-color: #feebd1;
+	}
+	
+	#footer_main{
+		width: 100%;
+		height: 184px;
+		background-color: #fff;
+	}
