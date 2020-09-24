@@ -6,14 +6,14 @@
 		border-top: 4px solid #ff6a00;
 		border-bottom: 1px solid white;
 	}
-	#header_top{
+	#header_top_wrap{
 		width: 100%;
 		height: 45px;
 		background-color: #f4f4f6;
 	}
 	
-	#header_top_wrap{
-		width: 80%;
+	#header_top{
+		width: 75%;
 		height: 45px;
 		margin: 0 auto;
 	}
@@ -21,54 +21,83 @@
 	#slogan> p{
 		display:inline-block;
 		float: left;
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 45px;
 		word-spacing: -3px;
 		color: gray;
-		background-color: blue;
 	}
 	
 	#slogan> p> strong{
 		color: black;
 	}
-	
-	#buttons >p{
-		display:inline-block;
+
+	#sns li{
 		float: right;
-		font-size: 12px;
+		list-style: none;
 		line-height: 45px;
-		word-spacing: -3px;
-		color: gray;
-		background-color: green;
+		font-size: 16px;
 	}
 	
-	#header_body{
+	#sns a{
+		text-decoration: none;
+		color: #111;	
+		font-weight: bold;
+	}
+	#top_link li{
+		float: right;
+		list-style: none;
+		line-height: 45px;
+		font-size: 16px;
+	}
+	
+	#top_link a{
+		text-decoration: none;
+		color: #111;	
+		font-weight: bold;
+	}
+	
+	#header_body_wrap{
 		width: 100%;
 		height: 95px;
-		background-color: yellow;
 	}
-	#header_body_wrap{
-		width: 80%;
-		height: 45px;
+	#header_body{
+		width: 75%;
+		height: 95px;
 		margin: 0 auto;
 	}
 	
-	#logo{
-		float: left;
-		width: 200px;
-		height: 95px;
-		background-color: red;
+	.header_menu{
+		display: inline-block;
+	}
 	
+	#header_logo > img{
+		padding: 20px 0 24px 0;
+		box-sizing: border-box;
 	}
 	
 	#header_nav{
 		float: right;
-		width: 200px;
-		height: 95px;
-		background-color: red;
-	
-	
+		width: 824px;
+		height: 65px;
+		padding: 15px 0;
+		background-color: red;	
+	}	
+		
+	#header_nav li{
+		float: right;
+		list-style: none;
+		line-height: 67px;
+		font-size: 20px;
+		border:1px solid black;
 	}
+	
+	#header_nav a{
+		text-decoration: none;
+		color: #111;	
+		font-weight: bold;
+	}
+	
+	
 	
 	#section_1{
 		width: 100%;
