@@ -3,17 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 <link href ="../css/common/reset.css" rel="stylesheet">
 <link href ="../css/common/default.css" rel="stylesheet">
 
 <style type="text/css">
-
-	 h1{	
-		margin-top : 20px;
+		
+	#board_content{
+		margin-top:200px;
+	}
+	
+	 h1{
 		text-align:  center;}
 
 	.tbl{
-		width: 800px;
+		 width: 800px;
 		 margin : 0px auto;
 		 font-size : small;
 		 border-spacing : 0px;
@@ -46,7 +54,7 @@
 </style>
 </head>
 <body>
-		<header>
+	<header>
 		<div id="header_top_wrap">
 			<div id="header_top">
 			<div id="slogan">
@@ -57,18 +65,20 @@
 				
 				<div id="sns">
 					<ul>
-						<li><a href="#">
-							<img alt="" src="/MyWeb/images/main/ico_sns_blog.png">
+						<li><a href="http://blog.naver.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_blog.png">
 						</a></li>
 						
-						<li><a href="#">
+						<li><a href="https://www.instagram.com/samyangfoods/" target="_blank">
 						<img alt="" src="/MyWeb/images/main/ico_sns_insta.png">
 						</a></li>
 						
-						<li><a href="#"><img alt="" src="/MyWeb/images/main/ico_sns_twitter.png">
+						<li><a href="https://twitter.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_twitter.png">
 						</a></li>
 						
-						<li><a href="#"><img alt="" src="/MyWeb/images/main/ico_sns_facebook.png">
+						<li><a href="https://www.facebook.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_facebook.png">
 						</a></li>
 					</ul>
 				</div>
@@ -121,54 +131,71 @@
 
 
 
-<section id="board_content">
-	<h1 >NOTICE</h1>
-	<!-- 게시판 리스트 -->
-	<!-- 제목 클릭하면 boardSelect Page -->
-	<!-- 글쓰기 클릭하면 boardWrite로 이동 -->
-	<form action ="./boardWrite.html">
-		<table class="tbl">
-	
-		<tr class="tr1">
-		<td>NO</td><td>SUBJECT</td><td>NAME</td><td>DATE</td><td>HIT</td>
-		</tr >
-		<tr class="tr2">
-		<td class="td1">1</td><td><a href="boardSelect.html" class="a1">[콘서트] FNC 프로젝트 랜선 콘서트 [SF9 - NOOB CON]</a></td><td class="td1">관리자</td><td class="td1">20.09.11</td><td class="td1">1540</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">2</td><td><a href="boardSelect.html" class="a1">[안내] Cherry Bullet Digital Single [알로하오에 (Aloha Oe)] 공개</a></td><td class="td1">관리자</td><td class="td1">20.09.03</td><td class="td1">1100</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">3</td><td><a href="boardSelect.html" class="a1">[안내] N.Flying Digital Single [STARLIGHT] 공개</a></td><td class="td1">관리자</td><td class="td1">20.08.24</td><td class="td1">781</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">4</td><td><a href="boardSelect.html" class="a1">[안내] SF9 인성, 휘영 출연 웹 드라마 [독고빈은 업뎃중] 방영 일정 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.16</td><td class="td1">974</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">5</td><td><a href="boardSelect.html" class="a1">[안내] SF9 8TH MINI ALBUM [9loryUS] 공개</a></td><td class="td1">관리자</td><td class="td1">20.08.12</td><td class="td1">1154</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">6</td><td><a href="boardSelect.html" class="a1">[팬미팅] SF9 공식팬클럽 FANTASY 3기 팬미팅 [셒구 워크숍] 진행 사항 관련 3차 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.11</td><td class="td1">124</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">7</td><td><a href="boardSelect.html" class="a1">[예약판매] SF9 8TH MINI ALBUM ‘9loryUS' 예약 판매 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.04</td><td class="td1">8804</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">8</td><td><a href="boardSelect.html" class="a1">[안내] N.Flying 7TH MINI ALBUM 'So, 通 (소통)' 예약 판매 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.01</td><td class="td1">977</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">9</td><td><a href="boardSelect.html" class="a1">[안내] 배우 진예주 웹드라마 ‘인서울 시즌2’ 출연 안내</a></td><td class="td1">관리자</td><td class="td1">20.07.21</td><td class="td1">556</td>
-		</tr>
-		<tr class="tr2">
-		<td class="td1">10</td><td><a href="boardSelect.html" class="a1">[안내] 배우 정해인, 김누리 tvN ‘반의반’ 출연 안내</a></td><td class="td1">관리자</td><td class="td1">20.07.16</td><td class="td1">10084</td>
-		</tr>
-		</table>
-		<button>글쓰기</button>
-	</form>
-</section>	
+	<section id="board_content">
+		<h1>NOTICE</h1>
+		<!-- 게시판 리스트 -->
+		<!-- 제목 클릭하면 boardSelect Page -->
+		<!-- 글쓰기 클릭하면 boardWrite로 이동 -->
+		<form action ="./boardWrite.html">
+			<table class="tbl">
+		
+			<tr class="tr1">
+			<td>NO</td><td>SUBJECT</td><td>NAME</td><td>DATE</td><td>HIT</td>
+			</tr >
+			<tr class="tr2">
+			<td class="td1">1</td><td><a href="boardSelect.html" class="a1">[콘서트] FNC 프로젝트 랜선 콘서트 [SF9 - NOOB CON]</a></td><td class="td1">관리자</td><td class="td1">20.09.11</td><td class="td1">1540</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">2</td><td><a href="boardSelect.html" class="a1">[안내] Cherry Bullet Digital Single [알로하오에 (Aloha Oe)] 공개</a></td><td class="td1">관리자</td><td class="td1">20.09.03</td><td class="td1">1100</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">3</td><td><a href="boardSelect.html" class="a1">[안내] N.Flying Digital Single [STARLIGHT] 공개</a></td><td class="td1">관리자</td><td class="td1">20.08.24</td><td class="td1">781</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">4</td><td><a href="boardSelect.html" class="a1">[안내] SF9 인성, 휘영 출연 웹 드라마 [독고빈은 업뎃중] 방영 일정 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.16</td><td class="td1">974</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">5</td><td><a href="boardSelect.html" class="a1">[안내] SF9 8TH MINI ALBUM [9loryUS] 공개</a></td><td class="td1">관리자</td><td class="td1">20.08.12</td><td class="td1">1154</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">6</td><td><a href="boardSelect.html" class="a1">[팬미팅] SF9 공식팬클럽 FANTASY 3기 팬미팅 [셒구 워크숍] 진행 사항 관련 3차 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.11</td><td class="td1">124</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">7</td><td><a href="boardSelect.html" class="a1">[예약판매] SF9 8TH MINI ALBUM ‘9loryUS' 예약 판매 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.04</td><td class="td1">8804</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">8</td><td><a href="boardSelect.html" class="a1">[안내] N.Flying 7TH MINI ALBUM 'So, 通 (소통)' 예약 판매 안내</a></td><td class="td1">관리자</td><td class="td1">20.08.01</td><td class="td1">977</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">9</td><td><a href="boardSelect.html" class="a1">[안내] 배우 진예주 웹드라마 ‘인서울 시즌2’ 출연 안내</a></td><td class="td1">관리자</td><td class="td1">20.07.21</td><td class="td1">556</td>
+			</tr>
+			<tr class="tr2">
+			<td class="td1">10</td><td><a href="boardSelect.html" class="a1">[안내] 배우 정해인, 김누리 tvN ‘반의반’ 출연 안내</a></td><td class="td1">관리자</td><td class="td1">20.07.16</td><td class="td1">10084</td>
+			</tr>
+			</table>
+			<button>글쓰기</button>
+		</form>
+	</section>	
 
 	<!-- Footer -->
-	<footer id="footer_main"></footer>
+	<footer id="footer_main">
+		<div id="footer_wrap">
+			<div id="ft_logo">
+				<img alt="" src="/MyWeb/images/main/logo.png">
+			</div>
+			<div id="ft_menu"></div>
+			<div id="ft_site">
+				<select>
+					<option>FNC KINGDOM SITE</option>
+					<option>FNC JAPAN</option>
+					<option>FNC STORE</option>
+					<option>FNC FACEBOOK</option>
+					<option>FNC INSTAGRAM</option>
+				</select>
+			
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>
