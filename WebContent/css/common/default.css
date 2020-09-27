@@ -128,35 +128,42 @@
 	
 	#footer_wrap{
 		width : 75%;
-		
-		margin: 0 auto;
-		background-color: blue;
+		height: 150px;
+		margin: 0 auto;	
 	}
 	
-	#ft_logo{
+	#ft_logo > img{
 		float: left;
-		
+		position: relative;
+		left: 0px;
 	}
 	#ft_menu{
 		float: left;
-		width: 488px;
-		height: 58px;
-		background-color: red;
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 10px;
 	}
+	
 	
 	#ft_site{
 		float: right;
-		width: 223px;
-		height: 58px;
+		width: 313px;
+		height:184px;
 	}
+
 	#ft_site > select{
-		width: 223px;
-		padding: 3px;
-		box-sizing: border-box;
+		float: right;
+		width: 242px;
+		height: 40px;
+		margin:10px 0;
 		background-color: #fff;
 		color: #a9a9a9;
-		border: none;
+		
 	}
-	
+
+	#ft_site img{
+		float: right;
+		margin:5px 0;
+	}
 	
 	

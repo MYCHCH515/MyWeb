@@ -178,12 +178,9 @@
 		box-sizing: border-box;	
 
 	}
-	#con4{
-		float:left;
-		width: 313px;
-		height: 417px;
-	}
+
 	#con4 > img{
+		float: left;
 		position: relative;
 		left: 0px;
 		top: -197px;
