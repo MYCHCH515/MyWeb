@@ -30,7 +30,6 @@
 	#buttons{
 		float: right;
 		width:390px;
-		line-height: 45px;
 	}
 
 	#sns li{
@@ -91,6 +90,7 @@
 	}
 	
 	#header_logo img{
+		float:left;
 		padding: 20px 0 24px 0;
 		box-sizing: border-box;
 	}
@@ -100,7 +100,6 @@
 		width: 824px;
 		height: 65px;
 		padding: 15px 0;
-
 	}	
 	
 	#header_nav li{
@@ -128,16 +127,15 @@
 	}
 	
 	#footer_wrap{
-	
 		width : 75%;
-		height: 184px;
+		
 		margin: 0 auto;
 		background-color: blue;
 	}
 	
 	#ft_logo{
 		float: left;
-		margin-right: 33px;
+		
 	}
 	#ft_menu{
 		float: left;
