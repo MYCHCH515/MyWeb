@@ -128,9 +128,11 @@
 	}
 	
 	#footer_wrap{
-		width : 60%;
-		height: 58px;
+	
+		width : 75%;
+		height: 184px;
 		margin: 0 auto;
+		background-color: blue;
 	}
 	
 	#ft_logo{
