@@ -6,7 +6,7 @@
 	
 	#section_2{
 		width: 100%;
-		height: 945px;
+		height: 875px;
 	}
 	
 	#bg_tab{
@@ -21,6 +21,7 @@
 		width:12.5%;
 		height:250px;
 		margin-left: 12.5%;
+
 	}
 	#text_product{
 		width:300px;
@@ -59,21 +60,127 @@
 		color: #666;	
 		font-weight: bold;
 	}
-	
-	
+
 	#list_product{
 		width: 100%;
 		height: 445px;
-		background-color: green;
+
 	}
 	
+	#list_product{
+		width: 100%;
+		padding: 10px 74px;
+		box-sizing: border-box;	
+	}
 	
+	#list_product li{
+		float:left;
+		list-style:none;
+		text-align: center;
+		margin-right: 10px;
+	}
 	
-
-
+	#list_product a{
+		text-decoration: none; color: #666;	
+	}
+	
+	.text_1{
+		font-size: 13px;
+	}
+	
+	.text_2{
+		font-size: 17px; font-weight: bold;
+	}
+	
 	#section_3{
 		width: 100%;
 		height: 1070px;
 		background-color: #feebd1;
 	}
 	
+	#text_community{
+		width:100%;
+		height:300px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	#text_community > h3{
+		font-size: 46px;
+		font-weight: bold;
+	}
+	#text_community h2{
+		font-size: 24px;
+		font-weight: normal;
+	}
+	#sns_community{
+		display: inline-block;
+		margin: 0 auto;			
+	}
+	
+	#sns_community li{
+		float:left;
+		list-style:none;
+		text-align: center;
+		margin-left:15px;
+		margin-top:25px;
+	}
+	
+	#content_cm{
+		width: 75%;
+		height: 700px;
+		margin: 0 auto;
+		margin-top:10px;
+	}
+	
+	#con1{
+		float:left;
+		width: 25%;
+		height: 28%;
+		background-color: #fff;
+		margin:10px 5px 10px 10px;
+
+	}
+	#con2{
+		float:left;
+		width: 45%;
+		height: 59%;
+		background-image: url("/MyWeb/images/main/vod_bg.png");	
+		margin: 0 auto;
+		margin:10px 5px 10px 10px;
+	}
+	#con3{
+		float:right;
+		width: 25%;
+		height: 28%;
+		background-color: #6fc8e9;
+		margin:10px 10px 10px 5px;
+	}
+	#con4{
+		float:left;
+		width: 25%;
+		height: 28%;
+	}
+	
+	#con5{
+		float:right;
+		width: 25%;
+		height: 28%;
+		background-color: #fff;
+		margin:10px 10px 10px 5px;
+	}
+
+	#con6{
+		float:left;
+		width: 45%;
+		height: 28%;
+		background-color: #91c749;
+		margin:10px 5px 10px 10px;
+	}
+	#con7{
+		float:right;
+		width: 25%;
+		height: 28%;
+		background-color: #c38ef2;
+		margin:10px 10px 10px 5px;
+	}
