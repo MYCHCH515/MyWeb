@@ -1,21 +1,24 @@
 @charset "UTF-8";
 
 	header{
+		display:inline-block;
 		width: 100%;
 		height: 136px;
 		border-top: 4px solid #ff6a00;
 		border-bottom: 1px solid white;
 	}
 	#header_top_wrap{
+		display:inline-block;
 		width: 100%;
 		height: 45px;
 		background-color: #f4f4f6;
 	}
 	
 	#header_top{
+		display:inline-block;
 		width: 75%;
 		height: 45px;
-		margin: 0 auto;
+		margin: 0px 12.5% 0px 12.5%;
 	}
 	
 	#slogan> p{
@@ -31,11 +34,12 @@
 		float: right;
 		width:390px;
 	}
-
-	#sns li{
+	#sns li {
 		float:left;
 		list-style:none;
-		margin-right: 15px;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-left: 20px;
 	}
 			
 	.top_li_2{
@@ -121,46 +125,60 @@
 	}	
 	
 	#footer_main{
+		display: inline-block;
 		width: 100%;
 		height: 184px;
+		border-top: 1px solid gray;
 		background-color: #fff;
 	}
 	
 	#footer_wrap{
-		width : 75%;
+		display: inline-block;
+		width: 75%;
 		height: 150px;
-		margin: 0 auto;	
-	}
-	
-	#ft_logo > img{
-		float: left;
-		position: relative;
-		left: 0px;
+		margin: 17px 12.5% 17px 12.5%;
+	}	
+	#ft_logo {
+		float: left;	
+		padding: 40px 0 40px 0;
+		box-sizing: border-box;
+		margin-right:30px;
 	}
 	#ft_menu{
 		float: left;
-		width: 50%;
-		margin: 0 auto;
+		font-size: 13px;
 		margin-top: 10px;
+	}	
+	#ft_menu li{
+		float: left;
+		list-style: none;
+		font-size: 14px;
+		margin-right: 20px;
+	}
+	#ft_menu a{
+		text-decoration: none;
+		color: #111;	
+		font-weight: bold;
 	}
 	
-	
+	#ft_sns li{
+		float:right;
+		list-style: none;
+		margin:20px 0 0 20px;
+	}		
 	#ft_site{
 		float: right;
-		width: 313px;
-		height:184px;
+		width: 300px;
+		height:150px;
 	}
-
 	#ft_site > select{
 		float: right;
 		width: 242px;
 		height: 40px;
 		margin:10px 0;
 		background-color: #fff;
-		color: #a9a9a9;
-		
+		color: #a9a9a9;		
 	}
-
 	#ft_site img{
 		float: right;
 		margin:5px 0;

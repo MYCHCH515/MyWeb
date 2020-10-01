@@ -16,11 +16,19 @@
 	.ip1{
 		margin-top: 10px;
 		margin-left: 600px;}
+		
+	#submit{
+		width: 100%;
+	}
+	#submit > input{
+		float: right;
+		margin:5px 20px 5px 0;
+	}
 
 </style>
 </head>
 <body>
-			<header>
+	<header>
 		<div id="header_top_wrap">
 			<div id="header_top">
 			<div id="slogan">
@@ -31,23 +39,24 @@
 				
 				<div id="sns">
 					<ul>
-						<li><a href="#">
-							<img alt="" src="/MyWeb/images/main/ico_sns_blog.png">
+						<li><a href="http://blog.naver.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_blog.png">
 						</a></li>
 						
-						<li><a href="#">
+						<li><a href="https://www.instagram.com/samyangfoods/" target="_blank">
 						<img alt="" src="/MyWeb/images/main/ico_sns_insta.png">
 						</a></li>
 						
-						<li><a href="#"><img alt="" src="/MyWeb/images/main/ico_sns_twitter.png">
+						<li><a href="https://twitter.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_twitter.png">
 						</a></li>
 						
-						<li><a href="#"><img alt="" src="/MyWeb/images/main/ico_sns_facebook.png">
+						<li><a href="https://www.facebook.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_facebook.png">
 						</a></li>
 					</ul>
 				</div>
-			
-			
+						
 				<div id="top_link">
 					<ul>
 						<li class="top_li_1"><a href="#">
@@ -60,7 +69,7 @@
 					</ul>
 					
 					<ul>	
-						<li class="top_li_2"><a href="#">인재채용</a></li>
+						<li class="top_li_2"><a href="./join/event_ex2.html">회원가입</a></li>
 						<li class="top_li_2"><a href="#">IR</a></li>
 						<li class="top_li_2"><a href="#">삼양맛샵</a></li>
 					</ul>
@@ -70,15 +79,12 @@
 			</div>
 		</div>
 		
-		
 		<div id="header_body_wrap">
 			<div id="header_body">
 				<div id="header_logo" class="header_menu">
 					<a href="/MyWeb/index.html"><img  alt="" src="/MyWeb/images/main/logo.png"></a>
 				</div>
-				
-				
-				
+								
 				<nav id="header_nav" class="header_menu"> 
 					<ul>
 						<li><a href="#">회사소개</a></li>
@@ -92,14 +98,8 @@
 		</div>
 	</header>
 
-
-	
-
-
-
 	<div class="d1"> 
-	<h1>Board Write Page</h1>
-	
+	<h1>Board Write Page</h1>	
 	<!-- form 태그 사용 -->
 	<!-- 제목, 작성자, 내용, write버튼  -->
 	<form>
@@ -120,16 +120,74 @@
 	<tr>
 	<td><textarea rows="25" cols="100" placeholder="내용을 입력하세요"></textarea></td>
 	</tr>
-	
-	<tr>
-	<td><input class="ip1" type ="submit" value = "작성완료"></td>
-	</tr>
-
 	</table>
 	</form>
+	
+	<div id="submit"><input class="ip1" type ="submit" value = "작성완료"></div>
 	</div>
 	
 		<!-- Footer -->
-	<footer id="footer_main"></footer>
+<footer id="footer_main">
+		<div id="footer_wrap">
+			<div id="ft_logo">
+				<img alt="" src="/MyWeb/images/main/logo2.png">
+			</div>
+			<div id="ft_menu">
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">고객지원</a></li>
+					<li><a href="#">IR</a></li>
+					<li><a href="#">인재채용</a></li>
+					<li><a href="#">찾아오시는길</a></li>
+					<li><a href="#">개인정보처리방침</a></li>	
+				</ul>
+				<br>
+				<br>
+				<p>서울특별시 성북구 오패산로3길 104(하월곡동)|
+				<span>Tel. 02-940-3999|Fax. 02-942-4350</span>
+				<br>
+				고객지원센터 : 080-940-3333(무료상담전화)
+				<br>
+				상담시간 (평일) 오전 9시 - 오후 6시 [점심시간 : 오후 12시 - 1시]
+				</p>
+				<br>
+				<p>Copyright @ 2016 Samyangfoods. All rights reserved.</p>
+			
+			</div>
+			
+			<div id="ft_site">
+				<select>
+					<option>FamilySite</option>
+					<option>삼양맛샵</option>
+					<option>삼양목장</option>
+					<option>호면당</option>
+					<option>삼양냉동</option>
+					<option>제주우유</option>
+				</select>
+				<img alt="" src="/MyWeb/images/main/award_2017.jpg">
+			</div>
+			
+			
+			<div id="ft_sns">
+				<ul>
+					<li><a href="https://www.facebook.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_facebook2.png">
+					</a></li>
+						
+					<li><a href="https://twitter.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_twitter2.png">
+					</a></li>	
+						
+					<li><a href="https://www.instagram.com/samyangfoods/" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_insta2.png">
+					</a></li>
+						
+					<li><a href="http://blog.naver.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_blog2.png">
+					</a></li>
+				</ul>
+			</div>			
+		</div>
+	</footer>
 </body>
 </html>

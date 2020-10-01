@@ -13,19 +13,19 @@
 <style type="text/css">
 	
 	#board_content{
-		padding-top: 50px;
-		box-sizing: border-box;
+		margin : 0px auto;
 	}	
 	
 	 h1{
 		text-align:  center;}
 
 	.tbl{
+		 margin: 0 auto;
 		 width: 800px;
-		 margin : 0px auto;
 		 font-size : small;
 		 border-spacing : 0px;
-		 border-collapse: collapse; }
+		 border-collapse: collapse;
+		 }
 		 
 	.tr1{ 						
 		height: 40px;		
@@ -37,20 +37,25 @@
 	.td1{
 		height: 40px;
 		text-align: center;
-		;}
+		}
 		
 	 .a1{
 		color: black;
 	    text-decoration: none;
-	}
+		}
 	
 	.tr2{
 		border-bottom: 3px solid gray;}
+		
+	#btn{
+		 margin: 0 auto;
+		 width: 800px;
+	}
 	
 	button{ 
-			margin-top: 10px;
-			margin-left: 1100px;}	
-}
+			float: right;
+			margin: 10px 0px 10px 0px;
+		}
 </style>
 </head>
 <body>
@@ -82,8 +87,7 @@
 						</a></li>
 					</ul>
 				</div>
-			
-			
+						
 				<div id="top_link">
 					<ul>
 						<li class="top_li_1"><a href="#">
@@ -96,7 +100,7 @@
 					</ul>
 					
 					<ul>	
-						<li class="top_li_2"><a href="#">인재채용</a></li>
+						<li class="top_li_2"><a href="./join/event_ex2.html">회원가입</a></li>
 						<li class="top_li_2"><a href="#">IR</a></li>
 						<li class="top_li_2"><a href="#">삼양맛샵</a></li>
 					</ul>
@@ -106,15 +110,12 @@
 			</div>
 		</div>
 		
-		
 		<div id="header_body_wrap">
 			<div id="header_body">
 				<div id="header_logo" class="header_menu">
 					<a href="/MyWeb/index.html"><img  alt="" src="/MyWeb/images/main/logo.png"></a>
 				</div>
-				
-				
-				
+								
 				<nav id="header_nav" class="header_menu"> 
 					<ul>
 						<li><a href="#">회사소개</a></li>
@@ -170,17 +171,38 @@
 			<td class="td1">10</td><td><a href="boardSelect.html" class="a1">[안내] 배우 정해인, 김누리 tvN ‘반의반’ 출연 안내</a></td><td class="td1">관리자</td><td class="td1">20.07.16</td><td class="td1">10084</td>
 			</tr>
 			</table>
-			<button>글쓰기</button>
+			<div id="btn"><button>글쓰기</button></div>
 		</form>
 	</section>	
 
-	<!-- Footer -->
-	<footer id="footer_main">
+<footer id="footer_main">
 		<div id="footer_wrap">
 			<div id="ft_logo">
 				<img alt="" src="/MyWeb/images/main/logo2.png">
 			</div>
-			<div id="ft_menu"></div>
+			<div id="ft_menu">
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">고객지원</a></li>
+					<li><a href="#">IR</a></li>
+					<li><a href="#">인재채용</a></li>
+					<li><a href="#">찾아오시는길</a></li>
+					<li><a href="#">개인정보처리방침</a></li>	
+				</ul>
+				<br>
+				<br>
+				<p>서울특별시 성북구 오패산로3길 104(하월곡동)|
+				<span>Tel. 02-940-3999|Fax. 02-942-4350</span>
+				<br>
+				고객지원센터 : 080-940-3333(무료상담전화)
+				<br>
+				상담시간 (평일) 오전 9시 - 오후 6시 [점심시간 : 오후 12시 - 1시]
+				</p>
+				<br>
+				<p>Copyright @ 2016 Samyangfoods. All rights reserved.</p>
+			
+			</div>
+			
 			<div id="ft_site">
 				<select>
 					<option>FamilySite</option>
@@ -192,6 +214,27 @@
 				</select>
 				<img alt="" src="/MyWeb/images/main/award_2017.jpg">
 			</div>
+			
+			
+			<div id="ft_sns">
+				<ul>
+					<li><a href="https://www.facebook.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_facebook2.png">
+					</a></li>
+						
+					<li><a href="https://twitter.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_twitter2.png">
+					</a></li>	
+						
+					<li><a href="https://www.instagram.com/samyangfoods/" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_insta2.png">
+					</a></li>
+						
+					<li><a href="http://blog.naver.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_blog2.png">
+					</a></li>
+				</ul>
+			</div>			
 		</div>
 	</footer>
 

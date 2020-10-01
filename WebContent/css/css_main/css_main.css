@@ -1,12 +1,13 @@
 @charset "UTF-8";
-	
 	#section_1{
-
-	}
-	
-	#section_2{
 		width: 100%;
-		height: 875px;
+		height: 545px;
+	}
+	#section_2{
+		position: relative;
+		top:0px;
+		width: 100%;
+		height: 850px;
 	}
 	
 	#bg_tab{
@@ -93,6 +94,7 @@
 	}
 	
 	#section_3{
+		display: inline-block;
 		width: 100%;
 		height: 1070px;
 		background-color: #feebd1;
@@ -179,11 +181,12 @@
 
 	}
 
-	#con4 > img{
+	#con4 {
 		float: left;
 		position: relative;
 		left: 0px;
-		top: -197px;
+		top: -200px;
+		
 	}
 	
 	#con5{
