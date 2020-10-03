@@ -9,7 +9,7 @@
 <link href ="./css/css_main/css_main.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="body_index">
 	<!-- layout -->
 	<!-- Header -->
 	<header>
@@ -53,9 +53,10 @@
 					</ul>
 					
 					<ul>	
-						<li class="top_li_2"><a href="./join/join_check.html">회원가입</a></li>
-						<li class="top_li_2"><a href="#">IR</a></li>
-						<li class="top_li_2"><a href="#">삼양맛샵</a></li>
+						<li class="top_li_2"><a href="/MyWeb/join/join_check.html" target="_blank">회원가입</a></li>
+						<li class="top_li_2"><a href="https://www.samyangfoods.com/kor/ir/bulletin.do" target="_blank">IR</a></li>
+						<li class="top_li_3"><a href="https://www.sydeliciousshop.com/"><img alt="" src="/MyWeb/images/main/gnb_shop.gif" target="_blank">
+						</a></li>
 					</ul>
 				</div>
 				
@@ -63,48 +64,104 @@
 			</div>
 		</div>
 		
+		
 		<div id="header_body_wrap">
 			<div id="header_body">
 				<div id="header_logo" class="header_menu">
-					<a href="/MyWeb/index.html"><img  alt="" src="/MyWeb/images/main/logo.png"></a>
+					<a href="/MyWeb/index.html"><img alt="" src="/MyWeb/images/main/logo.png"></a>
 				</div>
 								
 				<nav id="header_nav" class="header_menu"> 
 					<ul>
-						<li><a href="#">회사소개</a></li>
-						<li><a href="/MyWeb/board/boardList.html">게시판</a></li>
-						<li><a href="#">홍보관</a></li>
-						<li><a href="#">제품</a></li>
-						<li><a href="#">브랜드</a></li>
+						<li class="hn_li1"><a href="#">회사소개</a></li>
+						<li class="hn_li1"><a href="/MyWeb/board/boardList.html">게시판</a></li>
+						<li class="hn_li1"><a href="#">제품</a></li>
+						<li class="hn_li1"><a href="#">홍보관</a></li>						
+						<li class="hn_li1"><a href="#">브랜드</a></li>	
 					</ul>
 				</nav>
-			</div>
+				
+				<!--
+				<div id="sub">
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_1"><a href="#">삼양라면</a></li>
+						<li class="hn_li2" class="hn_li2_1"><a href="#">불닭볶음면</a></li>
+						<li class="hn_li2" class="hn_li2_1"><a href="#">짜짜로니</a></li>
+						<li class="hn_li2" class="hn_li2_1"><a href="#">별뽀빠이</a></li>
+					</ul>
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_2"><a href="#">라면</a></li>
+						<li class="hn_li2" class="hn_li2_2"><a href="#">스낵</a></li>
+						<li class="hn_li2" class="hn_li2_2"><a href="#">유제품</a></li>
+						<li class="hn_li2" class="hn_li2_2"><a href="#">소스&bull;간편식</a></li>
+					</ul>
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_3"><a href="#">보도자료</a></li>
+						<li class="hn_li2" class="hn_li2_3"><a href="#">홍보영상</a></li>
+						<li class="hn_li2" class="hn_li2_3"><a href="#">광고영상</a></li>
+						<li class="hn_li2" class="hn_li2_3"><a href="#">삼양역사관</a></li>
+					</ul>	
+					
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글목록</a></li>
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글작성</a></li>
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글수정</a></li>
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글삭제</a></li>
+					</ul>	
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_5"><a href="#">삼양식품</a></li>
+						<li class="hn_li2" class="hn_li2_5"><a href="#">계열사</a></li>
+						<li class="hn_li2" class="hn_li2_5"><a href="#">공장</a></li>
+						<li class="hn_li2" class="hn_li2_5"><a href="#">오시는길</a></li>
+					</ul>	
+				</div>			
+			 Header -->
 		</div>
+			<nav id="nav2">
+				12
+			</nav>
+		</div>
+
 	</header>
 	
 	<!-- Section -->
 	<section id="section_main">
 	
 		<section id="section_1">
-			<img style= "width:100%" alt="" src="./images/main/slide1.jpg">
+			<div class="container">
+				 <div class="img_wrap">
+				 	 <ul class="rollimgs">
+               		 <li><img src="./images/main/slide1.jpg"></img></li>
+					 <li><img src="./images/main/slide2.jpg"></img></li>
+					 <li><img src="./images/main/slide3.jpg"></img></li>
+					 <li><img src="./images/main/slide4.jpg"></img></li>
+					 <li><img src="./images/main/slide5.jpg"></img></li>
+					 <li><img src="./images/main/slide6.jpg"></img></li>
+					 <li><img src="./images/main/slide7.jpg"></img></li>  
+					 </ul>
+				</div>
+			</div>
 		</section>
-
+		
 		<section id="section_2">
-			
 			<div id="bg_tab">
 				<div id="new_product">
-				
 					<div style="position: absolute;">
-						 <div style="position: relative; top: 25px; left: 0px;">
+						 <div style="position: relative; top: 10%; left: 0;">
 						 	<img id="product_new" alt="" src="./images/main/product_new_bg.png">
 						 </div>
 					</div>	 
 					
-					<div style="position: absolute;">
-						  <div style="position: relative; top: 115px; left: 30px;">
-						  <a href="#"><img class="pd_images" alt="" src="./images/main/pd1.png"></a>
+					<div class="container2"  >
+						  <div class="img_wrap2" >
+						  
+							 <ul class="rollimgs2">
+               		 		 	<li><a href="#"><img src="/MyWeb/images/main/pd1.png"></img></a></li>
+							 	<li><a href="#"><img src="/MyWeb/images/main/pd2.png"></img></a></li>
+								<li><a href="#"><img src="/MyWeb/images/main/pd3.png"></img></a></li>
+						 	 </ul>  
 						  </div>
-					</div>	 
+					</div>	
 				</div>
 				
 				<div id="text_product">
@@ -117,29 +174,28 @@
 				<div id="icon_product">
 					<ul>
 						<li><a href="#">라면<br><br>
-						<img alt="" src="/MyWeb/images/main/product_tab1_1.png" 
-						onmouseover="this.src='/MyWeb/images/main/product_tab1_2.png'"
-						onmouseout="this.src='/MyWeb/images/main/product_tab1_1.png'">
+						<img alt="" src="/MyWeb/images/main/pt1_1.png" 
+						onmouseover="this.src='/MyWeb/images/main/pt1_2.png'"
+						onmouseout="this.src='/MyWeb/images/main/pt1_1.png'">
 						</a></li>
 						<li><a href="#">스낵<br><br>
-						<img alt="" src="/MyWeb/images/main/product_tab2_1.png" 
-						onmouseover="this.src='/MyWeb/images/main/product_tab2_2.png'"
-						onmouseout="this.src='/MyWeb/images/main/product_tab2_1.png'">
+						<img alt="" src="/MyWeb/images/main/pt2_1.png" 
+						onmouseover="this.src='/MyWeb/images/main/pt2_2.png'"
+						onmouseout="this.src='/MyWeb/images/main/pt2_1.png'">
 						</a></li>
 						<li><a href="#">유제품<br><br>
-						<img alt="" src="/MyWeb/images/main/product_tab3_1.png" 
-						onmouseover="this.src='/MyWeb/images/main/product_tab3_2.png'"
-						onmouseout="this.src='/MyWeb/images/main/product_tab3_1.png'">
+						<img alt="" src="/MyWeb/images/main/pt3_1.png" 
+						onmouseover="this.src='/MyWeb/images/main/pt3_2.png'"
+						onmouseout="this.src='/MyWeb/images/main/pt3_1.png'">
 						</a></li>
 						<li><a href="#">소스&bull;간편식<br><br>
-						<img alt="" src="/MyWeb/images/main/product_tab4_1.png" 
-						onmouseover="this.src='/MyWeb/images/main/product_tab4_2.png'"
-						onmouseout="this.src='/MyWeb/images/main/product_tab4_1.png'">
+						<img alt="" src="/MyWeb/images/main/pt4_1.png" 
+						onmouseover="this.src='/MyWeb/images/main/pt4_2.png'"
+						onmouseout="this.src='/MyWeb/images/main/pt4_1.png'">
 						</a></li>
 					</ul>
-				</div>
-				
-			</div>
+				</div>		
+			
 		
 			<div id="list_product">
 				<ul>
@@ -181,6 +237,7 @@
 						</a></li>
 				</ul>
 			</div>
+		</div>	
 		</section>
 		
 		
@@ -214,31 +271,43 @@
 			</div>
 			
 			<div id="content_cm">
-				<div id="con1"></div>
+				<div id="con1">
+				<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsamyangfoods%2F&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId=229602793717353" 
+				width="100%" height="100%" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
 				
 				<div id="con2"><span class="text_3">홍보영상 <br></span><br><span class="text_4">삼양식품의 다채로운 스토리를 <br>영상으로 보여드립니다.</span><br><br>
 				<a href="https://www.samyangfoods.com/kor/publicity/public/list.do" target="_blank">
 				<img alt="" src="/MyWeb/images/main/btn_more_vod.png"></a></div>
 				
 				<div id="con3"><span class="text_3">맛있는 나눔<br></span> <br><span class="text_4">모두가 행복한 맛있는 세상.</span><br><br>
-				<a href="https://www.samyangfoods.com/kor/information/probono/list.do" target="_blank">
-				<img alt="" src="/MyWeb/images/main/btn_more_comm03.png"></a></div>
+				<a href="https://www.samyangfoods.com/kor/information/probono/list.do" target="_blank"><img id="con3_img1" alt="" src="/MyWeb/images/main/btn_more_comm03.png"></a>
+				<img id="con3_img2" alt="" src=/MyWeb/images/main/bg_comm_tab_new.png></div>
 				
 				<div id="con5"><span class="text_5">공지사항
 				<a href="https://www.samyangfoods.com/kor/community/notice/list.do" target="_blank">
 				<img style="float: right;" alt="" src="/MyWeb/images/main/btn_notice.png"></a>
-				<br></span><br><span class="text_6">삼양사연 이벤트 참여하시고 선물 받아가세요!</span>
-				</div>
+				<br></span><br><span class="text_6">삼양사연 이벤트 참여하시고 선물 받아가세요!</span></div>
 				
-				<div id="con4"><img alt="" src="/MyWeb/images/main/event_content.jpg"></div>
-				
+				<div id="con4">
+					<div class ="container3">
+				 	<div class="img_wrap3" >
+						 <ul class="rollimgs3">
+               		 		<li><a href="#"><img src="/MyWeb/images/main/event_content1.jpg"></img></a></li>
+							<li><a href="#"><img src="/MyWeb/images/main/event_content2.jpg"></img></a></li>
+							<li><a href="#"><img src="/MyWeb/images/main/event_content3.jpg"></img></a></li>
+						</ul>  
+					</div>
+					</div>
+				</div>	
+
 			    <div id="con6"><span class="text_3">삼양사연<br></span><br><span class="text_4">삼양식품과 함께한 <br>여러분의 다양한 사연을 기다립니다.</span><br><br>
-			    <a href="https://blog.naver.com/samyangfoods" target="_blank">
-				<img alt="" src="/MyWeb/images/main/btn_more_comm01.png"></a></div>
+			    <a href="https://blog.naver.com/samyangfoods" target="_blank"><img id= "con6_img1" alt="" src="/MyWeb/images/main/btn_more_comm01.png"></a>
+				<img id= "con6_img2" alt="" src=/MyWeb/images/main/bg_comm_tab04.png></div>
 				
 			    <div id="con7"><span class="text_3">삼양 맛샵 오픈<br></span><br> <span class="text_4">삼양식품의 다양한 제품을 만나보세요.</span><br><br>
-			    <a href="https://www.sydeliciousshop.com/" target="_blank">
-				<img alt="" src="/MyWeb/images/main/btn_more_comm02.png"></a></div>
+			    <a href="https://www.sydeliciousshop.com/" target="_blank"><img id= "con7_img1" alt="" src="/MyWeb/images/main/btn_more_comm02.png"></a>
+			    <img id= "con7_img2" alt="" src=/MyWeb/images/main/bg_comm_tab07.png></div>
 			</div>	
 
 	 	</section>
@@ -257,7 +326,7 @@
 					<li><a href="#">IR</a></li>
 					<li><a href="#">인재채용</a></li>
 					<li><a href="#">찾아오시는길</a></li>
-					<li><a href="#">개인정보처리방침</a></li>	
+					<li><a href="#"><strong>개인정보처리방침</strong></a></li>	
 				</ul>
 				<br>
 				<br>
@@ -307,6 +376,10 @@
 			</div>			
 		</div>
 	</footer>
+
+<script type="text/javascript" src="./js/section_1.js" ></script> 
+<script type="text/javascript" src="./js/section_2.js"></script> 
+<script type="text/javascript" src="./js/section_3.js"></script> 
 
 </body>
 </html>

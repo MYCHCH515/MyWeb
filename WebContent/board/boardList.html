@@ -11,7 +11,7 @@
 <link href ="/MyWeb/css/common/reset.css" rel="stylesheet">
 <link href ="/MyWeb/css/common/default.css" rel="stylesheet">
 <style type="text/css">
-	
+
 	#board_content{
 		margin : 0px auto;
 	}	
@@ -21,9 +21,9 @@
 
 	.tbl{
 		 margin: 0 auto;
-		 width: 800px;
+		 width: 52.5%;
 		 font-size : small;
-		 border-spacing : 0px;
+		 border-spacing : 0;
 		 border-collapse: collapse;
 		 }
 		 
@@ -50,12 +50,19 @@
 	#btn{
 		 margin: 0 auto;
 		 width: 800px;
+		 background-color: red;
 	}
 	
 	button{ 
 			float: right;
 			margin: 10px 0px 10px 0px;
 		}
+		
+	#ft_site{
+		width: 260px;
+		height: 70px;
+	}
+		
 </style>
 </head>
 <body>
@@ -100,15 +107,16 @@
 					</ul>
 					
 					<ul>	
-						<li class="top_li_2"><a href="./join/event_ex2.html">회원가입</a></li>
+						<li class="top_li_2"><a href="/MyWeb/join/join_check.html">회원가입</a></li>
 						<li class="top_li_2"><a href="#">IR</a></li>
-						<li class="top_li_2"><a href="#">삼양맛샵</a></li>
+						<li class="top_li_3"><a href="#"><img alt="" src="/MyWeb/images/main/gnb_shop.gif">
 					</ul>
 				</div>
 				
 			</div>
 			</div>
 		</div>
+		
 		
 		<div id="header_body_wrap">
 			<div id="header_body">
@@ -118,15 +126,52 @@
 								
 				<nav id="header_nav" class="header_menu"> 
 					<ul>
-						<li><a href="#">회사소개</a></li>
-						<li><a href="/MyWeb/board/boardList.html">게시판</a></li>
-						<li><a href="#">홍보관</a></li>
-						<li><a href="#">제품</a></li>
-						<li><a href="#">브랜드</a></li>
+						<li class="hn_li1"><a href="#">회사소개</a></li>
+						<li class="hn_li1"><a href="/MyWeb/board/boardList.html">게시판</a></li>
+						<li class="hn_li1"><a href="#">제품</a></li>
+						<li class="hn_li1"><a href="#">홍보관</a></li>						
+						<li class="hn_li1"><a href="#">브랜드</a></li>	
 					</ul>
 				</nav>
-			</div>
+				
+				<!--
+				<div id="sub">
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_1"><a href="#">삼양라면</a></li>
+						<li class="hn_li2" class="hn_li2_1"><a href="#">불닭볶음면</a></li>
+						<li class="hn_li2" class="hn_li2_1"><a href="#">짜짜로니</a></li>
+						<li class="hn_li2" class="hn_li2_1"><a href="#">별뽀빠이</a></li>
+					</ul>
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_2"><a href="#">라면</a></li>
+						<li class="hn_li2" class="hn_li2_2"><a href="#">스낵</a></li>
+						<li class="hn_li2" class="hn_li2_2"><a href="#">유제품</a></li>
+						<li class="hn_li2" class="hn_li2_2"><a href="#">소스&bull;간편식</a></li>
+					</ul>
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_3"><a href="#">보도자료</a></li>
+						<li class="hn_li2" class="hn_li2_3"><a href="#">홍보영상</a></li>
+						<li class="hn_li2" class="hn_li2_3"><a href="#">광고영상</a></li>
+						<li class="hn_li2" class="hn_li2_3"><a href="#">삼양역사관</a></li>
+					</ul>	
+					
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글목록</a></li>
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글작성</a></li>
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글수정</a></li>
+						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글삭제</a></li>
+					</ul>	
+					<ul class="submenu">
+						<li class="hn_li2" class="hn_li2_5"><a href="#">삼양식품</a></li>
+						<li class="hn_li2" class="hn_li2_5"><a href="#">계열사</a></li>
+						<li class="hn_li2" class="hn_li2_5"><a href="#">공장</a></li>
+						<li class="hn_li2" class="hn_li2_5"><a href="#">오시는길</a></li>
+					</ul>	
+				</div>			
+			 Header -->
 		</div>
+		</div>
+
 	</header>
 
 	<section id="board_content">
@@ -175,6 +220,7 @@
 		</form>
 	</section>	
 
+	<!-- Footer -->
 <footer id="footer_main">
 		<div id="footer_wrap">
 			<div id="ft_logo">

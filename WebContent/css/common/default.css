@@ -1,23 +1,28 @@
 @charset "UTF-8";
 
+	#body_index{
+		width: 100%;
+		height: 2800px;
+	
+	}
 	header{
 		display:inline-block;
 		width: 100%;
-		height: 136px;
+		height:4%;
 		border-top: 4px solid #ff6a00;
 		border-bottom: 1px solid white;
 	}
 	#header_top_wrap{
 		display:inline-block;
 		width: 100%;
-		height: 45px;
+		height: 45%;
 		background-color: #f4f4f6;
 	}
 	
 	#header_top{
 		display:inline-block;
 		width: 75%;
-		height: 45px;
+		height: 100%;
 		margin: 0px 12.5% 0px 12.5%;
 	}
 	
@@ -32,14 +37,14 @@
 	
 	#buttons{
 		float: right;
-		width:390px;
+		width:35%;
 	}
 	#sns li {
 		float:left;
 		list-style:none;
 		margin: 0 auto;
-		margin-top: 10px;
-		margin-left: 20px;
+		margin-top: 3%;
+		margin-left: 5%;
 	}
 			
 	.top_li_2{
@@ -49,18 +54,25 @@
 		line-height:23px;
 		border : 1px solid #c0c0c0;
 		border-radius: 5px;
-		padding: 0 9px;
+		padding: 0 2%;
 		box-sizing: border-box;
-		margin: 10px 0 0 5px;
+		margin: 3% 0 0 2%;
 		background-color: white;
+	}
+	.top_li_3{
+		float:right;
+		list-style:none;
+		font-size: 12px;
+		line-height:23px;
+		margin: 3% 0 0 2%;
 	}
 	
 	.top_li_1{
 		float:right;
 		list-style:none;
 		line-height:23px;
-		margin-left: 5px;
-		padding: 9px 0;
+		margin-left:2%;
+		padding: 2.5% 0;
 		box-sizing: border-box;
 	}
 	
@@ -81,37 +93,34 @@
 	
 	#header_body_wrap{
 		width: 100%;
-		height: 95px;
+		height: 55%;
 	}
 	#header_body{
 		width: 75%;
-		height: 95px;
+		height:100%;
 		margin: 0 auto;
 	}
-	
 	.header_menu{
 		display: inline-block;
-	}
-	
+	}	
 	#header_logo img{
 		float:left;
-		padding: 20px 0 24px 0;
-		box-sizing: border-box;
+		padding: 10.5% 0 12% 0;
+		box-sizing: border-box;	
 	}
-	
 	#header_nav{
 		float: right;
-		width: 824px;
-		height: 65px;
-		padding: 15px 0;
+		width:85%;
+		height:100%;
+		padding: 2.5% 0 2.5% 2.5%;
+		box-sizing: border-box;
 	}	
 	
-	#header_nav li{
+	#header_nav .hn_li1{
 		float: right;
 		list-style: none;
-		line-height: 67px;
 		font-size: 18px;
-		margin: 10px 0 0 100px;
+		margin-left:10%;
 	}
 	
 	#header_nav a{
@@ -120,14 +129,55 @@
 		font-weight: bold;
 	}
 
-	#header_nav a:hover{
-		color: red;	
+	#header_nav a:hover {
+		color: orange;	
 	}	
+	#nav2{
+		visibility: hidden;
+		position: relative;
+		width: 100%;
+		height: 100px;
+		background-color: maroon;
+		z-index: 1;
+	}
+	
+	#header_nav a:hover #nav2{
+		visibility: visible;
+		display: block;
+	}
+	
+	
+	
+	
+	
+	
+	
+	#sub .submenu{
+		
+	}
+	#sub .submenu .hn_li2{
+		list-style: none;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+	#sub .submenu .hn_li2_1{
+		display: block;
+	}
+	#header_nav :hover .submenu{
+		visibility: visible;
+
+	}
+	
+	
+	
+	
+	
+	
 	
 	#footer_main{
 		display: inline-block;
 		width: 100%;
-		height: 184px;
+		height: 6%;
 		border-top: 1px solid gray;
 		background-color: #fff;
 	}
@@ -135,53 +185,53 @@
 	#footer_wrap{
 		display: inline-block;
 		width: 75%;
-		height: 150px;
-		margin: 17px 12.5% 17px 12.5%;
+		height: 100%;
+		margin: 1% 12.5%;
 	}	
 	#ft_logo {
 		float: left;	
-		padding: 40px 0 40px 0;
+		padding: 4% 0 ;
 		box-sizing: border-box;
 		margin-right:30px;
 	}
 	#ft_menu{
 		float: left;
 		font-size: 13px;
-		margin-top: 10px;
+		margin-top: 1%;
+		color: gray;
 	}	
 	#ft_menu li{
 		float: left;
 		list-style: none;
 		font-size: 14px;
-		margin-right: 20px;
+		margin-right: 3.5%;
 	}
 	#ft_menu a{
 		text-decoration: none;
 		color: #111;	
-		font-weight: bold;
 	}
 	
 	#ft_sns li{
 		float:right;
 		list-style: none;
-		margin:20px 0 0 20px;
+		margin:1.5% 1%;
 	}		
 	#ft_site{
 		float: right;
-		width: 300px;
-		height:150px;
+		width: 23%;
+		height:38%;
 	}
 	#ft_site > select{
 		float: right;
-		width: 242px;
-		height: 40px;
-		margin:10px 0;
+		width: 93%;
+		height: 70%;
+		margin:2% 0;
 		background-color: #fff;
 		color: #a9a9a9;		
 	}
 	#ft_site img{
 		float: right;
-		margin:5px 0;
+		margin:4% 0;
 	}
 	
 	
