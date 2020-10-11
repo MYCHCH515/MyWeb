@@ -3,20 +3,22 @@
 	#body_index{
 		width: 100%;
 		height: 2800px;
-	
 	}
+	
 	header{
 		display:inline-block;
 		width: 100%;
 		height:4%;
 		border-top: 4px solid #ff6a00;
 		border-bottom: 1px solid white;
+		
 	}
 	#header_top_wrap{
 		display:inline-block;
 		width: 100%;
 		height: 45%;
 		background-color: #f4f4f6;
+		
 	}
 	
 	#header_top{
@@ -24,6 +26,7 @@
 		width: 75%;
 		height: 100%;
 		margin: 0px 12.5% 0px 12.5%;
+		
 	}
 	
 	#slogan> p{
@@ -38,6 +41,7 @@
 	#buttons{
 		float: right;
 		width:35%;
+		overflow: hidden;
 	}
 	#sns li {
 		float:left;
@@ -59,6 +63,7 @@
 		margin: 3% 0 0 2%;
 		background-color: white;
 	}
+	
 	.top_li_3{
 		float:right;
 		list-style:none;
@@ -129,50 +134,39 @@
 		font-weight: bold;
 	}
 
-	#header_nav a:hover {
+	#header_nav span:hover {
 		color: orange;	
 	}	
-	#nav2{
-		visibility: hidden;
-		position: relative;
+	#sub_wrap{
+		position: absolute;
+		left: 0px;
+		top: 143px;
 		width: 100%;
-		height: 100px;
-		background-color: maroon;
-		z-index: 1;
+		background-color: white;
+		border-top: 1px solid #c0c0c0;
+		padding-left: 200px;
+		padding-right: 190px;
+		box-sizing: border-box;
+		z-index: 5;
 	}
-	
-	#header_nav a:hover #nav2{
-		visibility: visible;
-		display: block;
+	#sub_wrap span:hover{
+		color: black;
 	}
-	
-	
-	
-	
-	
-	
-	
-	#sub .submenu{
-		
-	}
-	#sub .submenu .hn_li2{
+	.submenu .hn_li2{
 		list-style: none;
 		font-size: 14px;
-		margin-top: 10px;
+		margin-top: 15px;
+	}	
+	.submenu span{
+		color: gray;
 	}
-	#sub .submenu .hn_li2_1{
-		display: block;
+	.submenu{
+		display: none;
+		float: right;
+		margin-left: 3%;
+		margin-right: 2%;
+		line-height: 30px;	
 	}
-	#header_nav :hover .submenu{
-		visibility: visible;
-
-	}
-	
-	
-	
-	
-	
-	
 	
 	#footer_main{
 		display: inline-block;

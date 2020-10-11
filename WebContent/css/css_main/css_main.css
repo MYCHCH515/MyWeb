@@ -4,59 +4,22 @@
 		height: 90%;
 	}
 	#section_1{
-	 	width: 1600px;
+	 	width: 100%;
 	    height: 573px;
+	     z-index: 3;
 	}
-		
 	.container{
 	    margin: 0 auto;
-	    width: 1600px;
+	   width: 100%;
 	    height: 573px;
-	    overflow: hidden;
+	   z-index: 3;
 	}
 	.img_wrap{
-	    width: 1600px;
-	    height: 573px;
-	    position: absolute;
-	    overflow: hidden;
-	}
-	
-	.rollimgs {
-	    list-style: none;
-	    padding: 0;
-	    margin: 0;
-	}
-	.rollimgs li{
-	    position: absolute;
-	    width: 1600px;
-	    height: 573px;
-	    left: 1600px;
-	}
-	.rollimgs li img{
 	    width: 100%;
-	    height: 100%;
+	    height: 573px;
+	    position: absolute;
+	    z-index: 3;
 	}
-	.rollimgs li.currentroll{
-	    left: 0;
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}
-	.rollimgs li.prevroll{
-	    left: -1600px;
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}
-	.rollimgs.reverse li.prevroll{
-	    transition: none;
-	}
-	.rollimgs li.nextroll{
-	    left: 1600px;
-	    display: block;
-	    transition: none;
-	}
-	.rollimgs.reverse li.nextroll{
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}	
-		
-
 	#section_2{
 		position: relative;
 		top:0px;
@@ -77,6 +40,7 @@
 		width:10%;
 		height:30%;
 		margin: 1% 0 0 12.5%;
+		
 	}
 	
 	.container2{	
@@ -93,42 +57,8 @@
 	    position: absolute;
 	    overflow: hidden;
 	    position: relative;  top: 28%; left: 20%;
+	    
 	}
-	
-	.rollimgs2 {
-	    list-style: none;
-	    padding: 0;
-	    margin: 0;
-	}
-	.rollimgs2 li{
-	    position: absolute;
-	    width: 180px;
-	    height: 180px;
-	    left: 180px;
-	}
-	.rollimgs2 li img{
-	    width: 100%;
-	    height: 100%;
-	}
-	.rollimgs2 li.currentroll{
-	    left: 0;
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}
-	.rollimgs2 li.prevroll{
-	    left: -180px;
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}
-	.rollimgs2.reverse li.prevroll{
-	    transition: none;
-	}
-	.rollimgs2 li.nextroll{
-	    left: 180px;
-	    display: block;
-	    transition: none;
-	}
-	.rollimgs2.reverse li.nextroll{
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}	
 
 	#text_product{
 		width:30%;
@@ -310,41 +240,6 @@
 	    position: absolute;
 	    overflow: hidden;
 	}
-	
-	.rollimgs3 {
-	    list-style: none;
-	    padding: 0;
-	    margin: 0;
-	}
-	.rollimgs3 li{
-	    position: absolute;
-	    width: 313px;
-	    height: 417px;
-	    left: 313px;
-	}
-	.rollimgs3 li img{
-	    width: 100%;
-	    height: 100%;
-	}
-	.rollimgs3 li.currentroll{
-	    left: 0;
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}
-	.rollimgs3 li.prevroll{
-	    left: -313px;
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}
-	.rollimgs3.reverse li.prevroll{
-	    transition: none;
-	}
-	.rollimgs3 li.nextroll{
-	    left: 313px;
-	    display: block;
-	    transition: none;
-	}
-	.rollimgs3.reverse li.nextroll{
-	    transition: left .5s ease-in-out, right .5s ease-in-out;
-	}	
 	
 
 	#con5{

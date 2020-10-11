@@ -4,9 +4,31 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
+<script language="JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script language="JavaScript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
 <link href ="./css/common/reset.css" rel="stylesheet">
 <link href ="./css/common/default.css" rel="stylesheet">
 <link href ="./css/css_main/css_main.css" rel="stylesheet">
+
+
+    <script type="text/javascript">
+    $(document).on('mouseover', '.gnb', function () {
+        $('.submenu').slideDown(200);
+    });
+  
+    $(document).on('mouseover', '#section_main', function () {
+        $('.submenu').slideUp(200); 
+    });
+    </script> 
+    
+   <script>$(document).ready(function(){$('.rollimgs').bxSlider();});</script>
+ <!--   <script>$(document).ready(function(){ $('.rollimgs2').bxSlider();});</script>  -->
+   <script>$(document).ready(function(){$('.rollimgs3').bxSlider();});</script>
 
 </head>
 <body id="body_index">
@@ -72,56 +94,55 @@
 				</div>
 								
 				<nav id="header_nav" class="header_menu"> 
-					<ul>
-						<li class="hn_li1"><a href="#">회사소개</a></li>
-						<li class="hn_li1"><a href="/MyWeb/board/boardList.html">게시판</a></li>
-						<li class="hn_li1"><a href="#">제품</a></li>
-						<li class="hn_li1"><a href="#">홍보관</a></li>						
-						<li class="hn_li1"><a href="#">브랜드</a></li>	
+					<ul class = "gnb">
+						<li class="hn_li1"><a href="#"><span>회사소개</span></a></li>
+						<li class="hn_li1"><a href="/MyWeb/board/boardList.html"><span>게시판</span></a></li>	
+						<li class="hn_li1"><a href="#"><span>홍보관</span></a></li>		
+						<li class="hn_li1"><a href="#"><span>제품</span></a></li>			
+						<li class="hn_li1"><a href="#"><span>브랜드</span></a></li>
 					</ul>
-				</nav>
-				
-				<!--
-				<div id="sub">
-					<ul class="submenu">
-						<li class="hn_li2" class="hn_li2_1"><a href="#">삼양라면</a></li>
-						<li class="hn_li2" class="hn_li2_1"><a href="#">불닭볶음면</a></li>
-						<li class="hn_li2" class="hn_li2_1"><a href="#">짜짜로니</a></li>
-						<li class="hn_li2" class="hn_li2_1"><a href="#">별뽀빠이</a></li>
-					</ul>
-					<ul class="submenu">
-						<li class="hn_li2" class="hn_li2_2"><a href="#">라면</a></li>
-						<li class="hn_li2" class="hn_li2_2"><a href="#">스낵</a></li>
-						<li class="hn_li2" class="hn_li2_2"><a href="#">유제품</a></li>
-						<li class="hn_li2" class="hn_li2_2"><a href="#">소스&bull;간편식</a></li>
-					</ul>
-					<ul class="submenu">
-						<li class="hn_li2" class="hn_li2_3"><a href="#">보도자료</a></li>
-						<li class="hn_li2" class="hn_li2_3"><a href="#">홍보영상</a></li>
-						<li class="hn_li2" class="hn_li2_3"><a href="#">광고영상</a></li>
-						<li class="hn_li2" class="hn_li2_3"><a href="#">삼양역사관</a></li>
-					</ul>	
-					
-					<ul class="submenu">
-						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글목록</a></li>
-						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글작성</a></li>
-						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글수정</a></li>
-						<li class="hn_li2" class="hn_li2_4"><a href="#">게시글삭제</a></li>
-					</ul>	
-					<ul class="submenu">
-						<li class="hn_li2" class="hn_li2_5"><a href="#">삼양식품</a></li>
-						<li class="hn_li2" class="hn_li2_5"><a href="#">계열사</a></li>
-						<li class="hn_li2" class="hn_li2_5"><a href="#">공장</a></li>
-						<li class="hn_li2" class="hn_li2_5"><a href="#">오시는길</a></li>
-					</ul>	
-				</div>			
-			 Header -->
+				  
+					<div id="sub_wrap">
+						<ul class="submenu" id="sub_1">
+							<li class="hn_li2"><a href="#"><span>삼양식품</span></a></li>
+							<li class="hn_li2"><a href="#"><span>계열사</span></a></li>
+							<li class="hn_li2"><a href="#"><span>공장</span></a></li>
+							<li class="hn_li2"><a href="#"><span>사회공헌</span></a></li>
+							<li class="hn_li2"><a href="#"><span>오시는길</span></a></li>
+						</ul>
+						
+						<ul class="submenu" id="sub_2">
+							<li class="hn_li2"><a href="#"><span>게시글목록</span></a></li>
+							<li class="hn_li2"><a href="#"><span>게시글작성</span></a></li>
+							<li class="hn_li2"><a href="#"><span>게시글수정</span></a></li>
+							<li class="hn_li2"><a href="#"><span>게시글삭제</span></a></li>
+						</ul>
+						
+						<ul class="submenu" id="sub_3">
+							<li class="hn_li2"><a href="#"><span>보도자료</span></a></li>
+							<li class="hn_li2"><a href="#"><span>홍보영상</span></a></li>
+							<li class="hn_li2"><a href="#"><span>광고영상</span></a></li>
+							<li class="hn_li2"><a href="#"><span>삼양역사관</span></a></li>
+							<li class="hn_li2"><a href="#"><span>호치와 친구들</span></a></li>
+						</ul>	
+								
+						<ul class="submenu" id="sub_4">
+							<li class="hn_li2"><a href="#"><span>라면</span></a></li>
+							<li class="hn_li2"><a href="#"><span>스낵</span></a></li>
+							<li class="hn_li2"><a href="#"><span>유제품</span></a></li>
+							<li class="hn_li2"><a href="#"><span>소스&bull;간편식</span></a></li>
+						</ul>
+						<ul class="submenu" id="sub_5">
+							<li class="hn_li2"><a href="#"><span>삼양라면</span></a></li>
+							<li class="hn_li2"><a href="#"><span>불닭볶음면</span></a></li>
+							<li class="hn_li2"><a href="#"><span>짜짜로니</span></a></li>
+							<li class="hn_li2"><a href="#"><span>별뽀빠이</span></a></li>
+							<li class="hn_li2"><a href="#"><span>삼양유기농두유</span></a></li>
+						</ul>
+					</div>	
+				</nav>	
+			</div>
 		</div>
-			<nav id="nav2">
-				12
-			</nav>
-		</div>
-
 	</header>
 	
 	<!-- Section -->
@@ -377,9 +398,6 @@
 		</div>
 	</footer>
 
-<script type="text/javascript" src="./js/section_1.js" ></script> 
-<script type="text/javascript" src="./js/section_2.js"></script> 
-<script type="text/javascript" src="./js/section_3.js"></script> 
 
 </body>
 </html>
