@@ -8,66 +8,49 @@
 	    height: 573px;
 	     z-index: 3;
 	}
-	.container{
-	    margin: 0 auto;
-	   width: 100%;
-	    height: 573px;
-	   z-index: 3;
-	}
 	.img_wrap{
 	    width: 100%;
 	    height: 573px;
-	    position: absolute;
 	    z-index: 3;
 	}
 	#section_2{
-		position: relative;
-		top:0px;
 		width: 100%;
 		height: 35%;
-	}
-	
+	}	
 	#bg_tab{
 		display: inline-block;
 		width: 100%;
 		height: 55%;
-		background-image: url("/MyWeb/images/main/bg_product_tab01.jpg");	
-		background-repeat: repeat-x;
+		background-image: url("/MyWeb/images/main/bg_product_tab01.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
-	
-	#new_product{
-		float: left;
-		width:10%;
-		height:30%;
-		margin: 1% 0 0 12.5%;
-		
-	}
-	
 	.container2{	
-	    margin: 0 auto;
-	    width: 300px;
-	    height: 300px;
-	    overflow: hidden;
-	    position: absolute;
-	  
+		float: left;
+	    width: 20%;
+	    height: 60%;
+	    position: relative; 
+	    top: 5%; left: 10%;
+	}	
+	#product_new{
+		position: relative; 
+	    top: 5%; left: 10%;
 	}
 	.img_wrap2{
-	    width: 180px;
-	    height: 180px;
-	    position: absolute;
-	    overflow: hidden;
-	    position: relative;  top: 28%; left: 20%;
-	    
+		display: inline-block;
+	    position: relative; 
+	    top: -22%; left: 32%;
 	}
-
+	.rollimgs2{
+		list-style: none;
+	}
 	#text_product{
 		width:30%;
 		height:50%;
 		margin: 0 auto;
 		text-align: center;
 		margin-top: 5%;
-	}
-	
+	}	
 	#text_product > h3{
 		font-size: 46px;
 		font-weight: bold;
@@ -83,7 +66,6 @@
 		display: inline-block;
 		width:30%;
 		height:30%;
-	
 		margin: 3% 35% 0 35%;
 	}
 	#icon_product li{
@@ -91,54 +73,45 @@
 		list-style:none;
 		text-align: center;
 		margin-left: 5.5%;
-	}
-	
+	}	
 	#icon_product a{
 		text-decoration: none;
 		color: #666;	
 		font-weight: bold;
 	}
-
 	#list_product{
 		width: 100%;
 		height: 35%;
 		padding: 0 5%;
 		box-sizing: border-box;	
-	}
-	
+	}	
 	#list_product li{
 		float:left;
 		list-style:none;
 		text-align: center;
 		margin-right: 0.5%;
-	}
-	
+	}	
 	#list_product a{
 		text-decoration: none; color: #666;	
-	}
-	
+	}	
 	.text_1{
 		font-size: 13px;
-	}
-	
+	}	
 	.text_2{
 		font-size: 17px; font-weight: bold;
-	}
-	
+	}	
 	#section_3{
 		display: inline-block;
 		width: 100%;
 		height: 45%;
 		background-color: #feebd1;
-	}
-	
+	}	
 	#text_community{
 		width:100%;
 		height:30%;
 		margin: 0 auto;
 		text-align: center;
-	}
-	
+	}	
 	#text_community > h3{
 		font-size: 46px;
 		font-weight: bold;
@@ -183,8 +156,7 @@
 	.text_6{
 		font-size: 16px;
 		color: #000000;
-	}
-	
+	}	
 	#con1{
 		float:left;
 		width: 27.5%;
@@ -214,34 +186,19 @@
 	#con3_img1{
 		position: relative;
 		top: -10%;
-	}
-	
+	}	
 	#con3_img2{
 		position: relative;
 		top: -10%;
 		left: 35%;
 	}
-
 	#con4 {
 		float: left;
+		width: 27.5%;
 		position: relative;
 		left: 0;
 		top: -30%;
 	}
-	.container3{
-	    margin: 0 auto;
-	    width: 313px;
-	    height: 417px;
-	    overflow: hidden;
-	}
-	.img_wrap3{
-	  	 width: 313px;
-	    height: 417px;
-	    position: absolute;
-	    overflow: hidden;
-	}
-	
-
 	#con5{
 		float:right;
 		width: 27.5%;
@@ -261,19 +218,16 @@
 		background-color: #91c749;		
 		padding: 3%;
 		box-sizing: border-box;	
-	}
-	
+	}	
 	#con6_img1{
 		position: relative;
-		top: -85%;
-	}
-	
+		top: -90%;
+	}	
 	#con6_img2{
 		position: relative;
 		top: -90%;
 		left: 45%;
-	}
-	
+	}	
 	#con7{
 		float:right;
 		width: 27.5%;
@@ -285,9 +239,8 @@
 	}
 	#con7_img1{
 		position: relative;
-		top: -15%;
+		top: -17%;
 	}
-	
 	#con7_img2{
 		position: relative;
 		top: -15%;
