@@ -11,30 +11,29 @@
 <link href ="../css/common/default.css" rel="stylesheet">
 
 <style type="text/css">
-	.d1 {
-		width: 50%;
-		display: block;
-		margin: 0 auto;
-		margin-top: 15px;
-		z-index: 3;
-		}
-		
-	.ip1{
-		margin-top: 10px;
-		margin-left: 600px;}
-		
-	#submit{
+	body{
 		width: 100%;
 	}
+
+	.d1 {
+		margin-top: 15px;
+		z-index: 3;
+		padding: 0 30% 0 30%;
+		box-sizing: border-box;
+		}	
+		
 	#submit > input{
-		float: right;
-		margin:5px 20px 5px 0;
+		float: left;
+		margin:1% 0 1% 0;
 	}
-			
-	#ft_site{
-		width: 260px;
-		height: 70px;
+	
+	#title{
+		text-align: center;
 	}
+	
+	.tr > td{
+		height: 30px;
+	}	
 </style>
 
     <script type="text/javascript">
@@ -161,31 +160,32 @@
 	</header>
 	
 	<div class="d1"> 
-	<h1>Board Write Page</h1>	
+	<h1 id="title">Board Write Page</h1>	
 	<!-- form 태그 사용 -->
 	<!-- 제목, 작성자, 내용, write버튼  -->
 	<form>
-	<table>
-	<tr>
+	<table id="tbl">
+	<tr class="tr">
 	<td>title</td>
 	</tr>
-	<tr>
+	<tr class="tr">
 	<td><input type ="text" placeholder="제목을 입력하세요"></td>
 	</tr>
-	<tr>
+	<tr class="tr">
 	<td>writer</td>
 	</tr>
-	<tr>
+	<tr class="tr">
 	<td><input type ="text" placeholder="작성자를 입력하세요"></td>
 	</tr>
-	
-	<tr>
-	<td><textarea rows="25" cols="100" placeholder="내용을 입력하세요"></textarea></td>
+	<tr class="tr">
+	<td><textarea rows="25" cols="80" placeholder="내용을 입력하세요"></textarea></td>
 	</tr>
+	<tr class="tr">
+	<td><div id="submit"><input type ="submit" value = "작성완료"></div></td>
+	</tr>
+	
 	</table>
 	</form>
-	
-	<div id="submit"><input class="ip1" type ="submit" value = "작성완료"></div>
 	</div>
 	
 
@@ -202,7 +202,7 @@
 					<li><a href="#">IR</a></li>
 					<li><a href="#">인재채용</a></li>
 					<li><a href="#">찾아오시는길</a></li>
-					<li><a href="#">개인정보처리방침</a></li>	
+					<li><a href="#"><strong>개인정보처리방침</strong></a></li>	
 				</ul>
 				<br>
 				<br>
@@ -252,6 +252,7 @@
 			</div>			
 		</div>
 	</footer>
+
 	
 	
 </body>

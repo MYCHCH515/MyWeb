@@ -39,6 +39,7 @@
 	.img_wrap2{
 		display: inline-block;
 	    position: relative; 
+	    width: 180px;
 	    top: -22%; left: 32%;
 	}
 	.rollimgs2{

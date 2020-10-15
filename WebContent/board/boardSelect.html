@@ -3,42 +3,245 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<link href ="../css/common/reset.css" rel="stylesheet">
+<link href ="../css/common/default.css" rel="stylesheet">
+
+<style type="text/css">
+	#board_content{
+		margin : 0px auto;
+	}	
+	#title{
+		text-align:  center;} 
+		
+	#d1 {
+		padding: 0 30% 0 30%;
+		box-sizing: border-box;
+		margin-top: 15px;
+		z-index: 3;
+		}	
+	.sel_btn{
+		float: left;
+		margin-right: 1%;
+	}
+</style>
+
+<script type="text/javascript">
+   $(document).on('mouseover', '.gnb', function () {
+        $('.submenu').slideDown(200);
+   });
+     
+   $(document).on('mouseover', '#board_content', function () {
+       $('.submenu').slideUp(200); 
+   });
+</script> 
 </head>
 <body>
-	<h1>Board Select Page</h1>
-	<!-- 하단에 List 버튼 누르면 리스트 페이지로 다시 이동  -->
-	<!-- Update 클릭하면 boardUpdate로 이동 -->
-	<!-- Delete 클릭하면 boardDelete로 이동 -->
-	<textarea rows="30" cols="80">안녕하세요.
-FNC Entertainment 입니다.
-오는 3월 23일 오후 9시에 방송되는,
-tvN 월화드라마 <반의반>에 배우 정해인이 ‘하원’ 역, 배우 김누리가 '최수지' 역으로 출연합니다.
-tvN <반의반>은
-인공지능 프로그래머 하원(정해인 분)과 클래식 녹음 엔지니어 서우(채수빈 분)가 만나 그리는 시작도, 성장도, 끝도 자유로운 짝사랑 이야기를 그린 드라마로,
-
-배우 정해인이 연기하는 ‘하원’은
-인공지능 분야에서 독보적으로 앞서나가는 있는 기획자이며 ‘AH’ 라는 거대 포털기업의 창업자이자 대표역이며
-
-배우 김누리가 연기하는 ‘최수지’는
-은주 하숙 하숙생으로 서우와는 대학교 친구인 역할입니다.
-
-2020년 3월 23일 오후 9시 첫 방송되는
-tvN <반의반> 많은 시청 부탁 드리며,
-배우 정해인, 김누리와 캐릭터 ‘하원’, '최수지'에게도 많은 응원과 사랑 부탁 드립니다.
-
-</textarea>
-
-	<form action = "boardList.html">
-	<button>list</button>
-	</form>
+	<header>
+		<div id="header_top_wrap">
+			<div id="header_top">
+			<div id="slogan">
+				<p>행복과 사랑이 넘치는 <strong style="color: black"> 삼양식품 </strong>입니다</p>
+			</div>
+			
+			<div id="buttons">
+				
+				<div id="sns">
+					<ul>
+						<li><a href="http://blog.naver.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_blog.png">
+						</a></li>
+						
+						<li><a href="https://www.instagram.com/samyangfoods/" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_insta.png">
+						</a></li>
+						
+						<li><a href="https://twitter.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_twitter.png">
+						</a></li>
+						
+						<li><a href="https://www.facebook.com/samyangfoods" target="_blank">
+						<img alt="" src="/MyWeb/images/main/ico_sns_facebook.png">
+						</a></li>
+					</ul>
+				</div>
+						
+				<div id="top_link">
+					<ul>
+						<li class="top_li_1"><a href="#">
+							<select>
+								<option>KOR</option>
+								<option>ENG</option>
+								<option>CHN</option>
+							</select>
+						</a></li>
+					</ul>
+					
+					<ul>	
+						<li class="top_li_2"><a href="/MyWeb/join/join_check.html" target="_blank">회원가입</a></li>
+						<li class="top_li_2"><a href="https://www.samyangfoods.com/kor/ir/bulletin.do" target="_blank">IR</a></li>
+						<li class="top_li_3"><a href="https://www.sydeliciousshop.com/"><img alt="" src="/MyWeb/images/main/gnb_shop.gif" target="_blank">
+						</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			</div>
+		</div>
+		
+		
+		<div id="header_body_wrap">
+			<div id="header_body">
+				<div id="header_logo" class="header_menu">
+					<a href="/MyWeb/index.html"><img alt="" src="/MyWeb/images/main/logo.png"></a>
+				</div>
+								
+				<nav id="header_nav" class="header_menu"> 
+					<ul class = "gnb">
+						<li class="hn_li1"><a href="#"><span>회사소개</span></a></li>
+						<li class="hn_li1"><a href="/MyWeb/board/boardList.html"><span>게시판</span></a></li>	
+						<li class="hn_li1"><a href="#"><span>홍보관</span></a></li>		
+						<li class="hn_li1"><a href="#"><span>제품</span></a></li>			
+						<li class="hn_li1"><a href="#"><span>브랜드</span></a></li>
+					</ul>
+				  
+					<div id="sub_wrap">
+						<ul class="submenu" id="sub_1">
+							<li class="hn_li2"><a href="#"><span>삼양식품</span></a></li>
+							<li class="hn_li2"><a href="#"><span>계열사</span></a></li>
+							<li class="hn_li2"><a href="#"><span>공장</span></a></li>
+							<li class="hn_li2"><a href="#"><span>사회공헌</span></a></li>
+							<li class="hn_li2"><a href="#"><span>오시는길</span></a></li>
+						</ul>
+						
+						<ul class="submenu" id="sub_2">
+							<li class="hn_li2"><a href="#"><span>게시글목록</span></a></li>
+							<li class="hn_li2"><a href="#"><span>게시글작성</span></a></li>
+							<li class="hn_li2"><a href="#"><span>게시글수정</span></a></li>
+							<li class="hn_li2"><a href="#"><span>게시글삭제</span></a></li>
+						</ul>
+						
+						<ul class="submenu" id="sub_3">
+							<li class="hn_li2"><a href="#"><span>보도자료</span></a></li>
+							<li class="hn_li2"><a href="#"><span>홍보영상</span></a></li>
+							<li class="hn_li2"><a href="#"><span>광고영상</span></a></li>
+							<li class="hn_li2"><a href="#"><span>삼양역사관</span></a></li>
+							<li class="hn_li2"><a href="#"><span>호치와 친구들</span></a></li>
+						</ul>	
+								
+						<ul class="submenu" id="sub_4">
+							<li class="hn_li2"><a href="#"><span>라면</span></a></li>
+							<li class="hn_li2"><a href="#"><span>스낵</span></a></li>
+							<li class="hn_li2"><a href="#"><span>유제품</span></a></li>
+							<li class="hn_li2"><a href="#"><span>소스&bull;간편식</span></a></li>
+						</ul>
+						<ul class="submenu" id="sub_5">
+							<li class="hn_li2"><a href="#"><span>삼양라면</span></a></li>
+							<li class="hn_li2"><a href="#"><span>불닭볶음면</span></a></li>
+							<li class="hn_li2"><a href="#"><span>짜짜로니</span></a></li>
+							<li class="hn_li2"><a href="#"><span>별뽀빠이</span></a></li>
+							<li class="hn_li2"><a href="#"><span>삼양유기농두유</span></a></li>
+						</ul>
+					</div>	
+				</nav>	
+			</div>
+		</div>
+	</header>
 	
-	<form action = "boardUpdate.html">
-	<button>글 수정</button>
-	</form>
 	
-	<form action = "boardDelete.html">
-	<button>글 삭제</button>
-	</form>
+	<section id="board_content">
+	<div id="d1">
+		<h1 id="title">Board Select Page</h1>
+			
+				<textarea rows="30" cols="80">안녕하세요.FNC Entertainment 입니다.
+오는 3월 23일 오후 9시에 방송되는,tvN 월화드라마 <반의반>에 배우 정해인이 ‘하원’ 역, 배우 김누리가 '최수지' 역으로 출연합니다.
+tvN <반의반>은 인공지능 프로그래머 하원(정해인 분)과 클래식 녹음 엔지니어 서우(채수빈 분)가 만나 그리는 시작도, 성장도, 끝도 자유로운 짝사랑 이야기를 그린 드라마로,
+배우 정해인이 연기하는 ‘하원’은인공지능 분야에서 독보적으로 앞서나가는 있는 기획자이며 ‘AH’ 라는 거대 포털기업의 창업자이자 대표역이며
+배우 김누리가 연기하는 ‘최수지’는은주 하숙 하숙생으로 서우와는 대학교 친구인 역할입니다.
+2020년 3월 23일 오후 9시 첫 방송되는tvN <반의반> 많은 시청 부탁 드리며,배우 정해인, 김누리와 캐릭터 ‘하원’, '최수지'에게도 많은 응원과 사랑 부탁 드립니다.
+				
+				</textarea>
+					
+					<form action = "boardList.html">
+					<button class="sel_btn">list</button>
+					</form>
+					
+					<form action = "boardUpdate.html">
+					<button class="sel_btn">글 수정</button>
+					</form>
+					
+					<form action = "boardDelete.html">
+					<button class="sel_btn">글 삭제</button>
+					</form>
+					
+	</div>	
+</section>
 
+	<!-- Footer -->
+<footer id="footer_main">
+		<div id="footer_wrap">
+			<div id="ft_logo">
+				<img alt="" src="/MyWeb/images/main/logo2.png">
+			</div>
+			<div id="ft_menu">
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">고객지원</a></li>
+					<li><a href="#">IR</a></li>
+					<li><a href="#">인재채용</a></li>
+					<li><a href="#">찾아오시는길</a></li>
+					<li><a href="#"><strong>개인정보처리방침</strong></a></li>	
+				</ul>
+				<br>
+				<br>
+				<p>서울특별시 성북구 오패산로3길 104(하월곡동)|
+				<span>Tel. 02-940-3999|Fax. 02-942-4350</span>
+				<br>
+				고객지원센터 : 080-940-3333(무료상담전화)
+				<br>
+				상담시간 (평일) 오전 9시 - 오후 6시 [점심시간 : 오후 12시 - 1시]
+				</p>
+				<br>
+				<p>Copyright @ 2016 Samyangfoods. All rights reserved.</p>
+			
+			</div>
+			
+			<div id="ft_site">
+				<select>
+					<option>FamilySite</option>
+					<option>삼양맛샵</option>
+					<option>삼양목장</option>
+					<option>호면당</option>
+					<option>삼양냉동</option>
+					<option>제주우유</option>
+				</select>
+				<img alt="" src="/MyWeb/images/main/award_2017.jpg">
+			</div>
+			
+			
+			<div id="ft_sns">
+				<ul>
+					<li><a href="https://www.facebook.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_facebook2.png">
+					</a></li>
+						
+					<li><a href="https://twitter.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_twitter2.png">
+					</a></li>	
+						
+					<li><a href="https://www.instagram.com/samyangfoods/" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_insta2.png">
+					</a></li>
+						
+					<li><a href="http://blog.naver.com/samyangfoods" target="_blank">
+					<img alt="" src="/MyWeb/images/main/ico_sns_blog2.png">
+					</a></li>
+				</ul>
+			</div>			
+		</div>
+	</footer>
 </body>
 </html>
